@@ -117,7 +117,7 @@ public class Scaffold extends Module {
 				&& !(mc.theWorld.getBlockState(position).getBlock() instanceof BlockLiquid)) {
 			return null;
 		}
-		EnumFacing[] values;
+		final EnumFacing[] values;
 		for (int length = (values = EnumFacing.values()).length, i = 0; i < length; ++i) {
 			final EnumFacing facing = values[i];
 			final BlockPos offset = position.offset(facing);
