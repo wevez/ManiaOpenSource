@@ -1,0 +1,14 @@
+/temp
+/runtime
+/logs
+/lib
+/jars
+/eclipse
+/docs
+/conf
+/bin
+/mappingviewer
+*.bat
+*.sh
+CHANGELOG
+LICENSE.txt
